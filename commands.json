@@ -3,17 +3,17 @@
     "курс": {
       "type": "text",
       "responses": [
-        "Доллар сегодня: 92 рубля! Сам как в лихие 90е",
-        "Евро тебе в кредитку: 105 рублей"
+        "Доллар: 92 рубля! Сам как в лихие 90е",
+        "Евро выше крыши бункера: 105 рублей"
       ]
     },
-    "халява": {
+    "музыка": {
       "type": "url",
-      "url": "https://store.steampowered.com/search/?maxprice=free"
+      "url": "https://www.youtube.com/watch?v=mHONNcZbwDY"
     },
-    "поиск": {
-      "type": "program",
-      "command": "start https://google.com/search?q={input}"
+    "очистка": {
+      "type": "macro",
+      "sequence": ["удали", "шутка"]
     }
   }
 }
