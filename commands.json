@@ -1,0 +1,19 @@
+{
+  "commands": {
+    "курс": {
+      "type": "text",
+      "responses": [
+        "Доллар сегодня: 92 рубля! Сам как в лихие 90е",
+        "Евро тебе в кредитку: 105 рублей"
+      ]
+    },
+    "халява": {
+      "type": "url",
+      "url": "https://store.steampowered.com/search/?maxprice=free"
+    },
+    "поиск": {
+      "type": "program",
+      "command": "start https://google.com/search?q={input}"
+    }
+  }
+}
